@@ -1,0 +1,6 @@
+framework module LDCarthageKit {
+  umbrella header "LDCarthageKit.h"
+
+  export *
+  module * { export * }
+}
