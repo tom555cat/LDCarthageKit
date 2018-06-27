@@ -2,7 +2,7 @@ language: objective-c
 osx_image: xcode9.1
 xcode_project: LDCarthageKit
 xcode_scheme: LDCarthageKit
-xcode_sdk: iphonesimulator9.3
+xcode_sdk: iphonesimulator11.1
 env:
   global:
   - FRAMEWORK_NAME=LDCarthageKit
