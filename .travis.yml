@@ -19,5 +19,7 @@ deploy:
   api_key:
     secure: eDyk9MPeobUsw5vcDoiYLkVHfG7m8b+ld5KMy//XCQxflGKTrsxRUXKCL7sHTso6h/b6VbagnXSx9iJSB5V6uvWUl/mdbiFCQ37jaw/KqckOx3zdcjbqdCUpJNT0E/7AY447EDq8/QQrMsfDe03CUSeG0X+HKXz3IBNHAi1PermGSkqSDn+h6FBskDeJKCEV7SEMG7+19G2NVlRJ3l3vmGfHlUr6w52fnv8COCbDKReV0F40CYYqAxQYOK67tAGcz/6sxLta3gMl7a6cS2pCIkGzRjkxoUl8lp8BiTwAepF/PGI+Ra/ipkS7ULpvXVxgrxt6HcxJfR3lZYqFWglSXrbMlfTZcGCJ0xi1LrBh/ZzgEnVU+AlrLcUNth7iGc7lmK3WEFLPAt4pHf2/tcTTPxzPCpfLW2osRsc1ZDNnGTdVtontKOvqjlm7vChDEQFawBVqorJ7g8RaiQxQ8yTfSOhWiIztYjmoQ3LUZi3CUaZL9p1kLItwi+ROJHnsB9qLnkLpH50YNsLEW2qat23MhlraDYQV8EUPBXm+R5zu27AkjsSGFBykCevEXI9afZ+/2822ZzQ9ppucdM1RDxU/uTHx4IeQnUMSLfsf29pAUW+tCD+Hkl9EdkgpBEhhjjTgKWZK+qK+dbI3smhbrTK5m5ZT88Rp38By1b/rV1/zhD4=
   file: "$FRAMEWORK_NAME.framework.zip"
+  skip_cleanup: true
   on:
     repo: tom555cat/LDCarthageKit
+    tags: true
