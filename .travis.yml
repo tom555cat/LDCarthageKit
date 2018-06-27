@@ -24,4 +24,4 @@ deploy:
     repo: tom555cat/LDCarthageKit
     tags: true
 script:
-    - xcodebuild -project LDCarthageKit -scheme LDCarthageKit -sdk iphonesimulator11.1 build test
+    - xcodebuild -project LDCarthageKit.xcodeproj -scheme LDCarthageKit -sdk iphonesimulator11.1 build
